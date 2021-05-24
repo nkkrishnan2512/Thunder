@@ -1,7 +1,7 @@
 # If not stated otherwise in this file or this component's LICENSE file the
 # following copyright and licenses apply:
 #
-# Copyright 2020 RDK Management
+# Copyright 2020 Metrological
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,8 +20,6 @@ cmake_minimum_required(VERSION 3.3)
 project(WPEFrameworkGenerators)
 
 set(GENERATOR_INSTALL_PATH "${CMAKE_INSTALL_PREFIX}/sbin")
-
-message("CMAKE_SYSTEM_PREFIX_PATH ${CMAKE_SYSTEM_PREFIX_PATH}, CMAKE_SYSTEM_LIBRARY_PATH ${CMAKE_SYSTEM_LIBRARY_PATH}, CMAKE_SYSTEM_INCLUDE_PATH ${CMAKE_SYSTEM_INCLUDE_PATH} and CMAKE_SYSTEM_PROGRAM_PATH ${CMAKE_SYSTEM_PROGRAM_PATH}")
 
 if(NOT DEFINED GENERIC_CMAKE_MODULE_PATH)
    find_path(GENERIC_CMAKE_MODULE_PATH CMake.cmake
