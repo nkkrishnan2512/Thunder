@@ -19,10 +19,6 @@
 
 #pragma once
 
-#ifndef MODULE_NAME
-#error "Please define a MODULE_NAME that describes the binary/library you are building."
-#endif
-
 #include "IWarningReportingMedia.h"
 #include "WarningReportingUnit.h"
 

@@ -19,10 +19,6 @@
 
 #pragma once
 
-#ifndef MODULE_NAME
-#error "Please define a MODULE_NAME that describes the binary/library you are building."
-#endif
-
 #include "IDriver.h"
 #include "HCISocket.h"
 #include "GATTSocket.h"
